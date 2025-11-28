@@ -3,12 +3,12 @@
  */
 package org.example;
 
-public class App {
+public class BookScannerApp {
     public String getGreeting() {
-        return "Hello World!";
+        return "Book Scanner Java - image-to-PDF pipeline (v0.1-dev)";
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println(new BookScannerApp().getGreeting());
     }
 }
